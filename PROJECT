@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: go-preset
 repo: github.com/Irvingwangjr/go-preset
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: my.domain
+  group: rtgrind
+  kind: Job
+  path: github.com/Irvingwangjr/go-preset/api/v1beta1
+  version: v1beta1
 version: "3"
