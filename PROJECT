@@ -1,0 +1,6 @@
+domain: my.domain
+layout:
+- go.kubebuilder.io/v3
+projectName: go-preset
+repo: github.com/Irvingwangjr/go-preset
+version: "3"
